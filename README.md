@@ -1,5 +1,3 @@
 # Snake_game
-snake game using JavaScript language
 
-
-https://viniciush97.github.io/Snake_game/
+## Recriação do famoso jogo da cobra em linguagem JavaScript, HTM e CSS.
