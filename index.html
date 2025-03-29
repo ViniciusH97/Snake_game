@@ -25,10 +25,18 @@
             font-size: 30px;
             font-weight: bold;
         }
+        .logo {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            width: 200px;
+            height: auto;
+        }
     </style>
 </head>
 
 <body>
+    <img src="images/IFSULDEMINAS_vertical.png" alt="Logo" class="logo">
     <div id="score">Pontuação: 0</div>
     <canvas id="gameCanvas" width="400" height="400"></canvas>
     <script>
@@ -48,7 +56,7 @@
         let dx = 1;
         let dy = 0;
         let score = 0;
-        let gameSpeed = 200;
+        let gameSpeed = 100;
         // Controles de direção
         document.addEventListener('keydown', changeDirection);
         function changeDirection(event) {
